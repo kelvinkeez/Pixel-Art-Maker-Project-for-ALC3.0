@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    background-color: #559e83;
+    font-family: 'Righteous', cursive;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0.2em;
+    color: #ffcc5c;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-weight: lighter;
+    color: white;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+    margin-bottom: 12px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+td:hover {
+    border-right: 1.5px double rgb(248, 250, 227);
+    border-bottom: 1.5px double rgb(248, 250, 227);
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 40px;
+    height: 15px;
+    font-weight: bold;
+    
+    font-size: 18px;
+    font-weight: lighter;
+    text-align:center;
+}
+
+table {
+    background-color: #ffeead;
+}
+
+.cellColor {
+    background-color: #ffeead;
+}
+
+.makeButton {
+    margin-left: 10px;
+    -webkit-transition-duration: 0.5s;
+    text-decoration: none;
+    color: gray;
+    border: gray solid 1px;
+    padding: 2px 4px;
+    background-color: black;
+    
+}
+
+.makeButton:hover {
+    color: black; 
+    cursor: pointer;
+    background-color: gray;
+}
+
+.fillerButton{
+    margin-left: 10px;
+    -webkit-transition-duration: 0.5s;
+    text-decoration: none;
+    color: gray;
+    border: gray solid 1px;
+    padding: 2px 4px;
+    background-color: black;
+}
+
+.fillerButton:hover {
+    color: black; 
+    cursor: pointer;
+    background-color: gray;
+}
+
+.instructions{
+    font-weight: lighter;
+}
+
+input[type="color"] {
+    -webkit-appearance: none;
+   border: none;
+  
+    width: 32px;
+    height: 32px;
+    border-radius: 3px;
+
+}
+
+input[type="color"]:hover{
+    cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+}
+
